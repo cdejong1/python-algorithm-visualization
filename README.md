@@ -38,29 +38,29 @@ python sorting_algorithm.py
 ## How It Works
 ### Core Components:
 
-    DrawInformation Class: Handles rendering the GUI, including blocks representing data, text, and titles.
-    Sorting Algorithms:
-        Bubble Sort:
-            Iteratively compares adjacent elements.
-            Swaps them if they are out of order.
-        Insertion Sort:
-            Builds a sorted portion of the list by inserting each new element into its correct position.
-    Visualization:
-        The elements are displayed as blocks of varying heights.
-        Green: Highlights the current comparison.
-        Red: Indicates the element being swapped.
-    Dynamic User Interaction:
-        The main loop listens for user input to control sorting, reset, or quit actions.
+DrawInformation Class: Handles rendering the GUI, including blocks representing data, text, and titles.
+Sorting Algorithms:
+    Bubble Sort:
+        Iteratively compares adjacent elements.
+        Swaps them if they are out of order.
+    Insertion Sort:
+        Builds a sorted portion of the list by inserting each new element into its correct position.
+Visualization:
+    The elements are displayed as blocks of varying heights.
+    Green: Highlights the current comparison.
+    Red: Indicates the element being swapped.
+Dynamic User Interaction:
+    The main loop listens for user input to control sorting, reset, or quit actions.
 
-File Structure
+### File Structure
 
-    DrawInformation Class: Defines the drawing window and layout.
-    generate_starting_list Function: Creates a random list of numbers for sorting.
-    bubble_sort Generator: Implements the Bubble Sort algorithm with visualization.
-    insertion_sort Generator: Implements the Insertion Sort algorithm with visualization.
-    main Function: Contains the main game loop for handling input, drawing, and executing sorting.
+  DrawInformation Class: Defines the drawing window and layout.
+  generate_starting_list Function: Creates a random list of numbers for sorting.
+  bubble_sort Generator: Implements the Bubble Sort algorithm with visualization.
+  insertion_sort Generator: Implements the Insertion Sort algorithm with visualization.
+  main Function: Contains the main game loop for handling input, drawing, and executing sorting.
 
-Author
+## Author
 
 Christian DeJong
 
